@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,  } from "../assets";
 
 export const navLinks = [
   {
@@ -6,16 +6,20 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "demo",
+    title: "Demo",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "pricing",
+    title: "Pricing",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "sign up",
+    title: "Sign Up",
+  },
+  {
+    id: "sign in",
+    title: "Sign In",
   },
 ];
 
@@ -73,18 +77,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Active Chatbots",
+    value: "100+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Active Clients",
+    value: "20+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "ChatGPT",
+    value: "Powered By",
   },
 ];
 
